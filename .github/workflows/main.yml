@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   jmeter_job:
-    runs-on: self-hosted
+    runs-on: UbuntuRunner
     name: JMeter Test Execution
     steps:      
       - name: Checkout
